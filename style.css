@@ -1,0 +1,197 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:13px;
+  font-family: sans-serif;
+}
+.box-primary{
+    width:100%;
+    height:100%;
+}
+.header{
+    width:100%;
+    padding:10px 1%;
+    font-size:20px;
+    box-shadow:#757575 0px 0px 4px 0;
+    position:fixed;
+    z-index:999999999;
+    background:#dff7f7;
+    font-weight:bold;
+}
+@media screen and (min-width: 800px){
+    .sidebar{
+        width:15%;
+        height:100%;
+        position:fixed;
+        z-index:99999999;
+        box-shadow:#cfcccc 0px 1px 2px 0;
+        margin:60px 0 0 0;
+        float:left;
+    }
+    .content{
+        width:84%;
+        margin:60px 0 0 0;
+        float:right;
+        
+    }
+}
+.btn-crud-data{
+    width:100%;
+    padding:10px 5px;
+    text-align:left;
+    font-size:15px;
+    margin:0 0 3px 0;
+    border-color:transparent;
+    outline:none;
+}
+.btn-crud-data:hover{
+    background:#a7caeb;
+}
+
+.form-input{
+    width:95%;
+    padding:5px 10px;
+    font-size:15px;
+    color:#666666;
+    border-color:transparent;
+    outline:none;
+    box-shadow:#666666 0px 0px 2px 0px;
+    margin:3px 0 10px 0;
+}
+.form-input-fitura{
+    width:98%;
+    padding:5px 10px;
+    font-size:15px;
+    color:#666666;
+    border-color:transparent;
+    outline:none;
+    box-shadow:#666666 0px 0px 2px 0px;
+    margin:3px 0 10px 0;
+}
+.form-input-fiturb{
+    width:96%;
+    padding:5px 10px;
+    font-size:15px;
+    color:#666666;
+    border-color:transparent;
+    outline:none;
+    box-shadow:#666666 0px 0px 2px 0px;
+    margin:3px 0 10px 0;
+}
+.form-textarea{
+    width:95%;
+    height:100px;
+    padding:5px 10px;
+    font-size:15px;
+    color:#666666;
+    border-color:transparent;
+    outline:none;
+    box-shadow:#666666 0px 0px 2px 0px;
+    margin:3px 0 10px 0;
+}
+.form-textarea:hover{
+    background:#e8f9ff;
+}
+.form-input:hover{
+    background:#e8f9ff;
+}
+.label-input{
+    font-size:20px;
+}
+.colom-contenta{
+    width:35%;
+    float:left;
+    margin:10px 0 0 0;
+}
+.colom-contentb{
+    width:63%;
+    float:right;
+    margin:10px 0 0 0;
+}
+.btn-kirim-data{
+    width:170px;
+    font-size:20px;
+    padding:10px 10px;
+    margin:10px 10px;
+}
+.btn-kirim-data:hover{
+    background:#a7caeb;
+}
+
+.btn-action-data{
+    width:100%;
+    font-size:17px;
+    padding:5px 5px;
+    background:#cfe6fc;
+    border-color:transparent;
+    outline:none;
+}
+.btn-action-data:hover{
+    background:#334e69;
+    color:#fff;
+}
+
+.btn-hapus-data{
+    width:100%;
+    font-size:15px;
+    padding:5px 5px;
+    background:#6e2a2a;
+    color:#f7f7f7;
+    border-color:transparent;
+    outline:none;
+}
+.btn-hapus-data:hover{
+    background:#ba0909;
+    color:#f7f7f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 95%;
+  font-size: 17px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 95%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.headered, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-maintenance{
+    padding:5px 20px;
+    font-size:20px;
+    border-color:transparent;
+    border-radius:5px 5px;
+    background:#8f332b;
+    color:#fff;
+    margin:2px 0;
+}
+.btn-maintenance:hover{
+    background:#400e0a;
+    color:#fff;
+}
+
+
